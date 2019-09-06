@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main()
+{
+	int cool;
+	char name;
+	printf("Enter your name");
+	scanf("%s",&name);
+	printf("how cool are you");
+	scanf("%d",&cool);
+	if (cool>7)
+	{
+		printf("hey %s , you are cool\n",name);
+	}
+	else
+		printf("Better Luck next time");
+
+}
+
+
